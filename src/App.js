@@ -1,10 +1,10 @@
 import './App.css';
-import NavBar from './components/NavBar.mjs'
+import NavBar from './components/NavBar.js'
 
 function App() {
   return (
     <>
-      <NavBar/>
+      <NavBar title = "AirStrike🏌️" primary = "Play" secondary = "How To Play" about = "Credits"/>
     </>
   );
 }
